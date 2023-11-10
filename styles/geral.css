@@ -37,3 +37,12 @@ header, footer{
     background-color: var(--branco);
     color: var(--rosa);
 }
+
+#botaoQuestionario{
+    background-color: var(--azul);
+    border: none;
+}
+
+#botaoQuestionario:hover{
+    background-color:#559bb9e1;
+}

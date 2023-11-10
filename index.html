@@ -6,7 +6,7 @@
     <title>Pawshop</title>
     <link rel="shortcut icon" href="images/logo/logoDark.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/geral.css">
 </head>
 <body>
     <div id="root" class="container-fluid p-0 m-0">
@@ -142,9 +142,6 @@
             </section>
         </main>
 
-        <footer class="text-center py-3">
-            <h4>Todos os direitos reservados a @Pawshop - 2023</h4>
-        </footer>
     </div>
     
     <!-- Coleira Modal -->
@@ -168,7 +165,104 @@
       </div>
     </div>
     </div>
+
+    <!--Comida Modal-->
+    <div class="modal fade" id="comidaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">COMIDA</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="w-100" src="images/products/productImage2.png" alt="">
+          <h3 style="color: var(--verde);">R$100</h3>
+          <label for="quantidade">Quantidade do produto:</label>
+          <input type="number" name="" id="quantidade">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+        </div>
+      </div>
+    </div>
+    </div>
   
+    <!--Disco Modal-->
+    <div class="modal fade" id="discoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">DISCO DE BRINQUEDO</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="w-100" src="images/products/productImage3.png" alt="">
+          <h3 style="color: var(--verde);">R$100</h3>
+          <label for="quantidade">Quantidade do produto:</label>
+          <input type="number" name="" id="quantidade">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+    <!--Casinha Modal-->
+    <div class="modal fade" id="casinhaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">CASINHA</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img class="w-100" src="images/products/productImage4.png" alt="">
+          <h3 style="color: var(--verde);">R$100</h3>
+          <label for="quantidade">Quantidade do produto:</label>
+          <input type="number" name="" id="quantidade">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-success">Adicionar no carrinho</button>
+        </div>
+      </div>
+    </div>
+    </div>
+  
+ <!--Formulário-->
+<section id="formulario" class="container-fluid mx-5 my-2 p-0 text-left">
+  <div class="row">
+    <!-- Coluna para o formulário -->
+    <div class="col-6 align-self-center">
+      <form class="text-left">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Insira o seu email:">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Telefone</label>
+          <input type="number" class="form-control" id="inputTelefone" placeholder="Insira o seu telefone:">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Aceito receber notificações</label>
+        </div>
+        <button id="botaoQuestionario" type="submit" class="btn btn-primary text-center">ENVIAR</button>
+      </form>
+    </div>
+    <!-- Coluna para a imagem -->
+    <div class="col-6 d-flex align-items-center justify-content-center">
+      <img src="images/imgBanner.png" alt="" class="w-100">
+    </div>
+  </div>
+</section>
+
+<footer class="text-center py-3">
+  <h4>Todos os direitos reservados a @Pawshop - 2023</h4>
+</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
