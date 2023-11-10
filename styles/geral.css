@@ -46,3 +46,14 @@ header, footer{
 #botaoQuestionario:hover{
     background-color:#559bb9e1;
 }
+
+h1{
+    text-align: center;
+    color: var(--rosa);
+    margin-top: 60px;
+}
+
+h3{
+    text-align: left;
+    color: var(--azul);
+}
