@@ -1,13 +1,13 @@
 :root{
     --azul: #6EB3D0;
-    --verde: #B6D7A8;
+    --verde: #3e951a;
     --rosa: #F7B6D2;
     --laranja: #F4A623;
-    --preto: #000000;
+    --preto: #424242;
     --branco: #FFFFFF;
 }
 
-header, footer{
+header,footer{
     background-color: var(--azul);
 }
 
@@ -18,42 +18,23 @@ header, footer{
 .card{
     padding: 1rem;
     border: var(--preto) 2px solid;
-} 
+}
 
 .card button{
     background-color: var(--rosa);
     color: var(--preto);
     border: none;
-    border-radius: 5px;
+    border-radius: 0%;
 }
 
 .card button:hover{
-    background-color: #f17eb0d2;
-    color: var(--branco);
-    transition: 0.3s;
+    background-color: #b46286;
 }
-
 .card button:active{
-    background-color: var(--branco);
-    color: var(--rosa);
+    background-color: var(--branco)!important;
+    color: var(--rosa)!important;
 }
 
-#botaoQuestionario{
-    background-color: var(--azul);
-    border: none;
-}
-
-#botaoQuestionario:hover{
-    background-color:#559bb9e1;
-}
-
-h1{
-    text-align: center;
-    color: var(--rosa);
-    margin-top: 60px;
-}
-
-h3{
-    text-align: left;
-    color: var(--azul);
+form input{
+    border: 1px solid black!important;
 }
